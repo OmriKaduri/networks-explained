@@ -27,6 +27,10 @@ TODO - brief overview of two main models (TCP/IP and OSI) and the importance of 
 
 ### Data link layer interfaces
 1. MAKEUPANAME - Break the packet from the network layer to `data frames` and transmit them using the physical layer.
+2. MAKEUPANAME - Recieve packets from sender (at order, with error detection & flow control options).
+
+Should maintain the order of packets sent from the sender's network layer to the reciever's network layer.
+
 
 ### Network layer
 1. MAKEUPANAME - Controls the routing of packets from source to destination
