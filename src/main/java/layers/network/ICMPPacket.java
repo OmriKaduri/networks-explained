@@ -1,4 +1,4 @@
-package layers.internet;
+package layers.network;
 
 public class ICMPPacket implements InternetPacket {
     public InternetAddress getFrom() {

@@ -1,4 +1,4 @@
-package layers.internet;
+package layers.network;
 
 public class InternetAddress {
 }

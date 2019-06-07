@@ -1,6 +1,6 @@
-package layers.internet;
+package layers.network;
 
-public interface InternetPacket {
+public interface NetworkPacket {
     public InternetAddress getFrom();
     public InternetAddress getTo();
     public String getContent();
