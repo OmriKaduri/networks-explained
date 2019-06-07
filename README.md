@@ -33,7 +33,11 @@ Should maintain the order of packets sent from the sender's network layer to the
 
 
 ### Network layer
-1. MAKEUPANAME - Controls the routing of packets from source to destination
+The network layer is the first layer that is end-to-end, and deals with routing packets all the way from the source of the packet to its intended destination.
+1. PacketSender - Controls the routing of packets from source to destination. The packet is built first by the upper layers (Application and Transport) and then sent over the wire on the Link layer.
+
+### Transport Layer
+### Application Layer
 
 TODO - brief overview of the entities for each layer (`new TwistedPair`, etc.)
 
